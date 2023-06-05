@@ -37,7 +37,6 @@ body {
   padding: 1rem;
   width: calc(280px + 2rem);
   box-shadow: 0 0.25rem 0.25rem rgba(0 0 0 / 0.3);
-  margin-bottom: clamp(0.1rem, 2vw, 2rem);
 }
 
 .card > img {
@@ -55,10 +54,4 @@ body {
 .card > p {
   color: var(--clr-primary-600);
   font-weight: var(--fw-regular);
-}
-
-p.subtitle {
-  color: var(--clr-primary-900);
-  font-weight: var(--fw-regular);
-  font-size: var(--fs-300);
 }
